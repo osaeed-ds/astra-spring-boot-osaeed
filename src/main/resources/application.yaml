@@ -1,0 +1,21 @@
+astra:
+  api:
+    application-token: YOUR_TOKEN
+    database-id: YOUR_DB_ID
+    database-region: us-east-1
+    grpc:
+      enabled: true
+  cql:
+    enabled: true
+    download-scb: 
+      enabled: false
+      path: /Users/omer.saeed/Documents (Modify)
+    driver-config:
+      basic:
+        session-keyspace: eapocdocumentns
+spring:
+  data:
+    cassandra:
+      schema-action: CREATE_IF_NOT_EXISTS
+
+
